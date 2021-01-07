@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_movie_black_24"
+            android:checked="true"
+            android:title="Movies"></item>
+
+        <item
+            android:id="@+id/nav_tv_show"
+            android:icon="@drawable/ic_tv_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="TvShows" />
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="Favourites" />
+
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_black_transaction_24"
+            android:iconTint="@android:color/darker_gray"
+            android:title="Manage Req.Movies" />
+
+    </group>
+
+        <item android:title="Account"
+            >
+            <menu>
+
+                <item
+                    android:id="@+id/Managesubscriptions"
+                    android:icon="@drawable/ic_store_black_24dp"
+                    android:title="Manage Subscriptions" />
+
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_black_settings_24"
+                    android:iconTint="@android:color/darker_gray"
+                    android:title="Settings" />
+
+                <item
+                    android:id="@+id/nav_sign_out"
+                    android:icon="@drawable/ic_logout_black_24"
+                    android:iconTint="@android:color/darker_gray"
+                    android:title="SignOut" />
+
+            </menu>
+
+        </item>
+
+</menu>

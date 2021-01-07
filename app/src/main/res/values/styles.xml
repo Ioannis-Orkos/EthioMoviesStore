@@ -1,0 +1,101 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>   </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.LoginActivity">
+        <item name="colorPrimary">#2C302F</item>
+        <item name="colorPrimaryDark">#2A302F</item>
+        <item name="colorAccent">#2E111B</item>
+        <item name="android:navigationBarColor">#2A302F</item>
+
+    </style>
+
+    <style name="AppTheme.SearchActivity">
+        <item name="colorPrimary">#2C302F</item>
+        <item name="colorPrimaryDark">#2A302F</item>
+        <item name="colorAccent">#2E111B</item>
+        <item name="android:navigationBarColor">#2A302F</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:statusBarColor">#060E3E</item>
+        <item name="android:navigationBarColor">#5D5B61</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>-->
+
+        <item name="drawerArrowStyle">@style/NavDrawerIcon</item>
+        <!-- Background color when SELECTED-->
+        <item name="colorControlHighlight">#99DFD8D8</item>
+        <!--Color of text and icon when SELECTED
+        <item name="colorPrimary">@color/design_default_color_error</item> -->
+
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.MainActivity">
+
+        <item name="android:editTextColor">@color/design_default_color_on_primary</item>
+        <item name="android:textColorHint">@color/design_default_color_on_primary</item>
+
+    </style>
+
+    <style name="NavDrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/design_default_color_on_primary</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-45dp</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+    </style>
+
+    <style name="NavItemTextAppearance">  </style>
+
+
+    <style name="Toolbar.expandedTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar.collapsedTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:text">#FFFFFF</item>
+        <item name="android:maxLength">8</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar.Movie_Detail_Activity">
+        <item name="colorPrimary">#2C302F</item>
+        <item name="colorPrimaryDark">#2A302F</item>
+        <item name="colorAccent">#2E111B</item>
+        <item name="android:navigationBarColor">#2A302F</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar.StoreMediaPagerActivity">
+
+    </style>
+
+</resources>

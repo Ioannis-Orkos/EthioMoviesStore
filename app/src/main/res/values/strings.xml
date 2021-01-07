@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EthioMoviesStore</string>
+
+    <!-- Notification channels  -->
+    <string name="MOVIES_CHANNEL_ID">movies</string>
+    <string name="CHANNEL_MOVIES">Movies</string>
+    <string name="MOVIES_CHANNEL_DESCRIPTION">Get informed with new movies updates</string>
+
+    <string name="TVSHOWS_CHANNEL_ID">tvshow</string>
+    <string name="CHANNEL_TVSHOWS">Tvshow</string>
+    <string name="TVSHOWS_CHANNEL_DESCRIPTION">Get informed with new tvshows updates</string>
+
+    <string name="ACCOUNT_CHANNEL_ID">account</string>
+    <string name="CHANNEL_ACCOUNT">Account</string>
+    <string name="ACCOUNT_CHANNEL_DESCRIPTION">Get informed with account activity</string>
+    <!-- END Notification channels  -->
+
+    <!-- TODO:Placeholder text -->
+    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="no_network">No internet connection</string>
+    <!-- TODO:End placeholder -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Qubee</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
