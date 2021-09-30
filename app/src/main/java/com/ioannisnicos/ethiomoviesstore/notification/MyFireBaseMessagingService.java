@@ -26,7 +26,7 @@ public class  MyFireBaseMessagingService extends FirebaseMessagingService {
     public void onNewToken(String s) {
         super.onNewToken(s);
         Log.i(TAG,"New token: "+s);
-        //Making an API call - Thread, Volley, okHttp, Retrofit
+        //Making an API call -  Retrofit
     }
 
     @Override

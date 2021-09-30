@@ -83,6 +83,5 @@ dependencies {
     //For tab layout
     implementation 'androidx.viewpager2:viewpager2:1.0.0-alpha06'
 
-    //To Implement permission easliy
-    implementation 'pub.devrel:easypermissions:3.0.0'
+
 }

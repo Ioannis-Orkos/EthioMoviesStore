@@ -105,6 +105,8 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+
+    //If logged and notification token saved pass to next activity
     @Override
     protected void onStart() {
         // Check for existing Google Sign In mAccount, if the user is already signed in
@@ -236,6 +238,9 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    //get notification token form fire base
+    //check if its saved in the data preferences, if store the data
+    //
     private void prepNotifToken(){
         FirebaseInstanceId.getInstance().getInstanceId().addOnCompleteListener(task -> {
             if(!task.isSuccessful()){

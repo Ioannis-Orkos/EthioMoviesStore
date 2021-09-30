@@ -232,10 +232,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-
-
-
-
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -287,8 +283,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-
-
     private void setFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction()
@@ -296,8 +290,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fragmentTransaction.commit();
 
     }
-
-
 
     private void signOut() {
         mGoogleSignInClient.signOut()
@@ -310,8 +302,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     }
                 });
     }
-
-
 
     @Override
     public void finishAfterTransition() {
@@ -330,7 +320,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             new Handler().postDelayed(() -> doubleBackToExitPressedOnce = false, 2000);
         }
     }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
